@@ -1,7 +1,7 @@
 import streamlit as st
 
 # 제목
-st.title("💰 소득 수준 분류기")
+st.title("소득 수준 분류기")
 
 # 사용자 입력
 income = st.number_input("소득을 입력하세요 (만원)", min_value=0, step=100)
